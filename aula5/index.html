@@ -5,17 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+
+        table, tr, td{
+
+            text-align: center;
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 0px 2px;
+
+        }
+
+        th{
+
+            background-color: rgb(81, 141, 209);
+
+        }
+
+        td.col1{
+
+            text-align: center;
+
+        }
+
+        td.col2{
+
+            text-align: left;
+            padding-right: 200px;
+
+        }
+
+    </style>
 </head>
 <body>
-    <h2>Teste de Listas</h2>
-    <ol style="list-style-type: 1;">
-        <li>Café
-            <ol style="list-style-type: circle;">
-                <li>Arábica</li>
-                <li>Gourmet</li>
-                <li>Gelado</li>
+    <h2>Lista de Compras</h2>
+    <ol style="list-style-type: a;">
+        <li>Perfumaria
+            <ol style="list-style: square;">
+                <li>Esmalte</li>
+                <li>Banho</li>
+                <ol style="list-style: circle;">
+                    <li>Shampoo</li>
+                    <li>Condicionador</li>
+                    <li>Sabonete</li>
+                </ol>
+                <li>Creme para o corpo</li>
+                <li>Creme para as mãos</li>
+                <li>Desodorante</li>
             </ol>
         </li>
+        <li>Alimentação
+            <ol type="1">
+                <li>Macarrão</li>
+                <li>Grãos</li>
+                <ol start="21">
+                    <li>Arroz</li>
+                    <li>Feijão</li>
+                </ol>
+                <li>Carnes</li>
+                <li>Verduras</li>
+                <li>Legumes</li>
+            </ol>
+        </li>
+        <li>Material de Limpeza</li>
     </ol>
+
+    <table>
+
+        <tr>
+            <th colspan="2">Técnico em Informática Integrado</th>
+        </tr>
+        <tr>
+            <td class="col1" rowspan="2">Programação para Internet</td>
+            <td class="col2">HTML e CSS</td>
+        </tr>
+        <tr>
+            <td class="col2">Javascript e PHP</td>
+        </tr>
+        <tr>
+            <td class="col1" rowspan="4">Projeto de Software II</td>
+            <td class="col2">Análise de Sistemas</td>
+        </tr>
+        <tr>
+            <td class="col2">Modelagem UML</td>
+        </tr>
+        <tr>
+            <td class="col2">Implementação</td>
+        </tr>
+        <tr>
+            <td class="col2">Testes</td>
+        </tr>
+
+    </table>
 </body>
 </html>
