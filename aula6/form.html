@@ -17,18 +17,13 @@
         <form action="" method="post">
 
             <label for="id">Código</label>
-            <input type="text" name="id" id="id" readonly value="001"><br><br>
+            <input type="text" name="id" id="id"><br><br>
             <label for="name">Nome</label>
-            <input type="text" name="name" id="name" autofocus required placeholder="Inform the password..."><br><br>
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password" placeholder="Inform the password..."><br><br>
-            <label for="password">Confirm password</label>
-            <input type="confirm-password" name="confirm-password" id="confirm-password" placeholder="Confirm password..."><br><br>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" required placeholder="Informe o email..."><br><br>
+            <input type="text" name="name" id="name"><br><br>
             <label for="date">Data de Nascimento</label>
-            <input type="date" name="datebirth" id="datebirth" required max="2023-05-20" min="2005-05-21"><br><br>
-            
+            <input type="date" name="datebirth" id="datebirth"><br><br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password"><br><br>
 
             <label for="interests">Assuntos de Interesse</label><br>
             <input type="checkbox" name="interests" id="interests" value="PW">Programação Web <br>
@@ -49,9 +44,9 @@
             <select name="course" id="course">
 
                 <option value="inf">Informática</option>
-                <option value="adm">Administração</option>
-                <option value="met">Metalurgia</option>
-                <option value="qui">Química</option>
+                <option value="inf">Administração</option>
+                <option value="inf">Metalurgia</option>
+                <option value="inf">Química</option>
 
             </select><br><br>
 
@@ -59,7 +54,6 @@
             <textarea name="ps" id="ps" cols="50" rows="5"></textarea><br><br>
 
             <button onclick="send()" id="send">Enviar</button>
-            <button onclick="cancel()" id="cancel">Cancel</button>
 
         </form>
 
