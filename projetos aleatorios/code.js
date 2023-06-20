@@ -8,7 +8,7 @@ function miss(){
         var left = Math.random() * (500 + 50) + "px";
         btn.style.top = top;
         btn.style.left = left;
-        txt.innerHTML = "Dumb";
+        txt.innerHTML = "Burro";
     }
 
 }
@@ -16,14 +16,14 @@ function miss(){
 function yes(){
 
     var txt = document.getElementById("txt");
-    txt.innerHTML = "Dumb";
+    txt.innerHTML = "Burro";
 
 }
 
 function no(){
 
     var txt = document.getElementById("txt");
-    txt.innerHTML = "Smart";
+    txt.innerHTML = "Inteligente";
 
 }
 
