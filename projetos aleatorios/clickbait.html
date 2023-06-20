@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="styles/click.css">
-    <script src="code.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +10,14 @@
 <body>
     <div>
     <h1>Are you dumb?</h1>
-        <button type="button" onclick="alert('oi')">Yes!</button>
-        <button type="button" onclick="No()" id="no">No!</button>
+    <p>Curent state: </p>
+    <p id="txt"></p>
+    <br>
+    <button type="button" onclick="yes()">Yes!</button>
+    <button type="button" onmouseover="miss()" onclick="no()" id="no">No!</button>
     </div>
+    <p id="text">Developd by</p>
+    <button id="stop" onclick="stop()">@Allysson</button>
+    <script src="code.js"></script>
 </body>
 </html>
