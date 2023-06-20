@@ -1,0 +1,30 @@
+body{
+
+    background-color: black;
+
+}
+
+div{
+
+    text-align: center;
+
+}
+
+h1{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: blueviolet;
+    text-align: center;
+
+}
+
+button{
+
+    background-color: rgb(164, 212, 255);
+    color: blueviolet;
+    font-size: larger;
+    text-align: center;
+    margin: 15px;
+
+}
