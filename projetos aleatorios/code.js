@@ -34,4 +34,14 @@ function stop(){
     m = false;
 
 }
+
+function trocar(){
+
+    var btn1 = document.getElementById("n1");
+    var btn2 = document.getElementById("n2");
+    n1 = ntn1.innerHTML;
+    
+
+}
+
 //window.history.back();
