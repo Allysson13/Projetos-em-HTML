@@ -9,16 +9,20 @@
 </head>
 <body>
 
-    <h1>Informe um valor: </h1>
+    <h1>Informe os valor: </h1>
     <div>
-        <form action="code.js" method="get">
+        <form action="" method="get">
 
-            <label for="">Valor 1: </label>
+            <label for="">Idade: </label><br>
             <input type="text" name="number" id="n1"><br><br>
-            <label for="">Valor 2: </label>
+            <label for="">Dependentes: </label><br>
             <input type="text" name="number" id="n2"><br><br>
 
             <button id="btn" onclick="trocar()">Trocar</button>
+            <button id="btn" onclick="verificar()">Verificar</button><br><br>
+
+            <label for="" id="v1"></label>
+            <label for="" id="v2"></label>
 
         </form>
     </div>
