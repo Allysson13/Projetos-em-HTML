@@ -72,6 +72,21 @@ label{
 
     color: white;
     text-align: center;
-    font-size: larger;
+    font-size: x-large;
+
+}
+
+input{
+
+    width: 360px;
+    font-size: x-large;
+    text-align: center;
+
+}
+
+textarea{
+
+    font-size: x-large;
+    text-align: center;
 
 }

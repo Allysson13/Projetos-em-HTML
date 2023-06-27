@@ -41,27 +41,40 @@ function trocar(){
     let txt2 = document.getElementById("v2");
     let n1 = document.getElementById("n1").value;
     let n2 = document.getElementById("n2").value;
-    txt1.innerHTML = n2;
-    txt2.innerHTML = n1;
+    txt1.innerHTML += n2;
+    txt2.innerHTML += n1;
     console.log("teste");
 
 }
 
 function verificar(){
-
+    
+    let txt3 = document.getElementById("v3");
     var idade = document.getElementById("n1").value;
     var dependentes = document.getElementById("n2").value;
     if(idade < 40){
 
-        alert("Aumento de 10% " + idade);
+        txt3.innerHTML += "10%";
 
-    }else if(idade <= 55 && dependentes > 1){
+    }else if(idade <= 55 || dependentes > 1){
 
-        alert("Aumento de 25%");
+        txt3.innerHTML += "25%";
 
     }else if(dependentes > 3){
 
-        alert("Aumento de 30%");
+        txt3.innerHTML += "30%";
+
+    }
+
+}
+
+function tabuada(){
+
+    let n = parseInt(document.getElementById("n1").value);
+    let txt = document.getElementById("n2");
+    for(let i = 1; i <= 10; i++){
+
+        txt.value += n + " + " + i + " = " + (n + i) + "\n";
 
     }
 
