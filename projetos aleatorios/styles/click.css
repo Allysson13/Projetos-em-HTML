@@ -1,16 +1,16 @@
-body{
+body {
 
     background-color: black;
 
 }
 
-div{
+div {
 
     text-align: center;
 
 }
 
-h1{
+h1 {
 
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
@@ -19,7 +19,8 @@ h1{
 
 }
 
-p, a{
+p,
+a {
 
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
@@ -31,7 +32,7 @@ p, a{
 
 }
 
-button{
+button {
 
     background-color: rgb(164, 212, 255);
     color: blueviolet;
@@ -42,7 +43,7 @@ button{
 
 }
 
-#stop{
+#stop {
 
     font-size: large;
     top: 1090px;
@@ -59,7 +60,7 @@ button{
 
 }
 
-#text{
+#text {
 
     font-size: large;
     color: blueviolet;
@@ -68,7 +69,7 @@ button{
 
 }
 
-label{
+label {
 
     color: white;
     text-align: center;
@@ -76,7 +77,7 @@ label{
 
 }
 
-input{
+input {
 
     width: 360px;
     font-size: x-large;
@@ -84,9 +85,17 @@ input{
 
 }
 
-textarea{
+textarea {
 
     font-size: x-large;
     text-align: center;
+
+}
+
+.inline {
+
+    display: inline;
+    position: relative;
+    
 
 }
