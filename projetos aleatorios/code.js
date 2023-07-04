@@ -113,7 +113,7 @@ function tabuada(operacao) {
 
         for (let i = 1; i <= 10; i++) {
 
-            txt.value += n + " + " + i + " = " + (n - i) + "\n";
+            txt.value += n + " - " + i + " = " + (n - i) + "\n";
 
         }
 
@@ -123,7 +123,7 @@ function tabuada(operacao) {
 
         for (let i = 1; i <= 10; i++) {
 
-            txt.value += n + " + " + i + " = " + (n * i) + "\n";
+            txt.value += n + " * " + i + " = " + (n * i) + "\n";
 
         }
 
@@ -133,7 +133,7 @@ function tabuada(operacao) {
 
         for (let i = 1; i <= 10; i++) {
 
-            txt.value += n + " + " + i + " = " + (n / i) + "\n";
+            txt.value += n + " : " + i + " = " + (n / i) + "\n";
 
         }
 
@@ -143,7 +143,7 @@ function tabuada(operacao) {
 
         for (let i = 1; i <= 10; i++) {
 
-            txt.value += n + " + " + i + " = " + (n ** i) + "\n";
+            txt.value += n + " ^ " + i + " = " + (n ** i) + "\n";
 
         }
 
@@ -153,7 +153,7 @@ function tabuada(operacao) {
 
         for (let i = 1; i <= 10; i++) {
 
-            txt.value += n + " + " + i + " = " + (n ** 1/i) + "\n";
+            txt.value += n + " */* " + i + " = " + (n ** (1/i)) + "\n";
 
         }
 

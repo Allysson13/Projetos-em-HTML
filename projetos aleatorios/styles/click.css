@@ -85,6 +85,16 @@ input {
 
 }
 
+.button{
+
+    width: max-content;
+    font-size: x-large;
+    text-align: center;
+    background-color: rgb(164, 212, 255);
+    color: blueviolet;
+
+}
+
 textarea {
 
     font-size: x-large;
@@ -96,6 +106,22 @@ textarea {
 
     display: inline;
     position: relative;
-    
+
+}
+
+#divs{
+
+    text-align: center;
+    width: max-content;
+    margin: auto;
+
+}
+
+.btn{
+
+    padding: 50px 15px;
+    margin: auto;
+    width: max-content;
+    display: inline;
 
 }
