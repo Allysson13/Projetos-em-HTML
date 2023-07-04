@@ -1,29 +1,30 @@
-function tabuada(operacao) {
+function calculo(operacao) {
 
-    let n = document.getElementById("n1").value;
-    let txt = document.getElementById("n2");
+    let n = parseInt(document.getElementById("n1").value);
+    let n2 = parseInt(document.getElementById("n2").value);
+    let txt = document.getElementById("n3");
 
-    if(operacao == "+"){
+    if (operacao == "+") {
 
         adição(n, n2, txt);
 
-    }else if(operacao == "-"){
+    } else if (operacao == "-") {
 
         subtração(n, n2, txt);
 
-    }else if(operacao == "*"){
+    } else if (operacao == "*") {
 
         multiplicação(n, n2, txt);
 
-    }else if(operacao == "/"){
+    } else if (operacao == "/") {
 
         divisão(n, n2, txt);
 
-    }else if(operacao == "^"){
+    } else if (operacao == "^") {
 
         exponencial(n, n2, txt);
 
-    }else{
+    } else {
 
         raiz(n, n2, txt);
 
@@ -61,7 +62,7 @@ function tabuada(operacao) {
 
     function raiz(n, n2, txt) {
 
-        txt.value = n + " ~ " + n2 + " = " + (n ** (1/n2)) + "\n";
+        txt.value = n + " ~ " + n2 + " = " + (n ** (1 / n2)) + "\n";
 
     }
 
