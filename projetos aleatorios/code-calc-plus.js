@@ -1,4 +1,4 @@
-function calculo(operacao) {
+function calculo() {
 
     let n = document.getElementById("n1").value + "";
     let txt = document.getElementById("n2");
@@ -14,9 +14,12 @@ function calculo(operacao) {
 
     if (n.includes("(") || n.includes("[") || n.includes("{")) {
 
-
+        
 
     } else {
+
+        alert("else");
+        console.log("teste");
 
         for (let i = 0; i = n.length - 4; i += 2) {
 
